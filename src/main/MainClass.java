@@ -23,8 +23,6 @@ public class MainClass {
 				Login lo = new Login();
 				lo.login();
 				break;
-			case 2 :
-				break;
 			case 2 : 
 				Member m = new Member();
 				m.member();
