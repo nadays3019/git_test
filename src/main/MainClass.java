@@ -3,6 +3,7 @@ package main;
 import java.util.Scanner;
 
 import login.Login;
+import member.Member;
 
 public class MainClass {
 	
@@ -23,6 +24,10 @@ public class MainClass {
 				lo.login();
 				break;
 			case 2 :
+				break;
+			case 2 : 
+				Member m = new Member();
+				m.member();
 				break;
 			}
 		}
